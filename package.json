@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "example",
@@ -15,5 +15,8 @@
   "license": "MIT",
   "engines": {
     "node": "10.16.3"
+  },
+  "dependencies": {
+    "@easypost/api": "^3.7.3"
   }
 }
